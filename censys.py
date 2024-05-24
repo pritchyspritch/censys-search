@@ -64,7 +64,7 @@ def censys_cert_search(domain):
     print(results_count)
     return all_cert_info
 
-all_cert_info = censys_cert_search()
+all_cert_info = censys_cert_search("gov.uk")
 all_subjects = []
 all_names = []
 only_specific_names = []
